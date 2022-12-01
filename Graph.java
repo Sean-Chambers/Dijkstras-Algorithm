@@ -1,3 +1,8 @@
+/*
+ * Written by Sean Chambers
+ * 
+ * This class implements a graph representing all the cities that are contained in RoadData.csv
+ */
 import java.util.*;
 class Graph{
    private ArrayList<Vertex> towns;
@@ -17,6 +22,7 @@ class Graph{
       //else
       towns.add(new Vertex(townName,destination,distance));   
    }
+
    //returns a hashtable mapping the name of a town to a priorityqueue of its edges
    public Hashtable<String, ArrayList<Edge>> getGraphAsHashTable(){
       Hashtable<String, ArrayList<Edge>> arrayedTowns = new Hashtable<String, ArrayList<Edge>>();
@@ -26,6 +32,7 @@ class Graph{
       return arrayedTowns;
    }
    
+   //this method returns the amount of cities in the graph
    public int getNumberOfNodes(){
       return towns.size();
    }

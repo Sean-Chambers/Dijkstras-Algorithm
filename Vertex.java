@@ -1,4 +1,8 @@
-//needed for list
+/*
+ * Provided by instructor for use in making a graph
+ * 
+ * Vertex represents cities connected by Edges orin this case roads. 
+ */
 import java.util.*;
 class Vertex{
    private ArrayList<Edge> roads;

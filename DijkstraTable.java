@@ -1,3 +1,8 @@
+/*
+ * Written by Sean Chambers
+ * 
+ * Implements Dijkstras Algorithm to create a shortest path table 
+ */
 import java.util.*;
 class DijkstraTable{
    private Hashtable<String, ArrayList<Edge>> reference;

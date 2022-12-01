@@ -1,3 +1,8 @@
+/*
+ * Provided by instructor for creation of a graph
+ * 
+ * Edge represents roads between two Vertex or in this case two cities
+ */
 class Edge{
    private String destination;
    private int distance; 

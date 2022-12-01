@@ -1,7 +1,7 @@
 /*
-
 runs the entire program
-
+provided by instructor for use in implementing Dijkstras Algorithm
+valid town names can be found in RoadData.csv
 */
 import java.io.*;
 import java.lang.*;
